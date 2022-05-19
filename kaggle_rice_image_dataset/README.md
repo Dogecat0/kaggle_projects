@@ -20,10 +20,9 @@ Using custom small Convolutional Neural Network and Transfer Learning MobileNetv
 -  Create custom CNN model and Transfer Learning MobileNetv2 model.
 -  For both models, the optimizer is set to **keras.optimizers.Adam** and **keras.losses.SparseCategoricalCrossentropy** for loss function.
 5. Result
--  The custom CNN model has achived validation accuracy of 99.2% and MobileNetv2 model with validation accuracy of 97.1%.
-<br><br>
-After thoughts: 
-- The custom CNN may have overfitting problem, future task could include to have a dropout layer and data augmentation layer to solve overfitting.
-- The MobileNetv2 model has achived 97.1% accuracy so no further fine tuning work has been carried out.
+-  Both the custom CNN model and MobileNetv2 model have achieved 99% test accuracy
+6. Prediction
+-  Predict the images selected from test dataset
+-  Predict a single image downloaded from internet
 
 
