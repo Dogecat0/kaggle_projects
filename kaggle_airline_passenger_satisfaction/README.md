@@ -9,33 +9,36 @@ License: refer to https://www.kaggle.com/datasets/johndddddd/customer-satisfacti
 ---
 
 Exploratory data analysis and model building for prediction of future customers satisfaction:
-- Exploratory data analysis:
+<br><br>
+- **Exploratory data analysis**:
   1. Customer types and classes
   2. Customer age and type of travel
   3. Satisfaction analysis:
      
     - Customer age and satisfaction
     - Class, flight distance and satisfaction
-- Model building:
+  <br><br>
+- **Model building**:
   1. Encode the categorical variables
   2. Check correlation map
-  3. Build the models and gridsearch for best parameters:
+  3. Build the models and gridsearch for best parameters :
     - Logistic regression
     - K neighbors classifier
     - Decision tree classifier
-  4. Result
-    <br><br>
+  4. Result :
+  <br><br>
     - **Logistic Regression**: 
-    <br>
-    Best parameters: {'C': 10,     'penalty': 'l1', 'solver': 'saga'}
+    <br><br>
+    Best parameters: 
+    <br>*--C: 10,*<br>*--penalty: 'l1'*, <br>*--solver: 'saga'*<br>
     Accuracy: 87%
     <br>
     F1 Score: 85%
     
    <br><br>
     - **K Neighbors classifier**: 
-    <br>
-    Best parameters: {'metric': 'minkowski', 'n_neighbors': 8, 'p': 1, 'weights': 'distance'}
+    <br><br>
+    Best parameters: <br>*--metric: 'minkowski'*, <br>*--n_neighbors: 8,*<br>*--p: 1*,<br> *--weights: 'distance'*
     <br>
     Accuracy: 94%
     <br>
@@ -43,8 +46,8 @@ Exploratory data analysis and model building for prediction of future customers 
 
     <br><br>
     - **Decision Tree calssifier**:
-    <br>
-    Best parameters: {'criterion': 'gini', 'max_depth': 9, 'max_features': 'log2', 'min_samples_split': 9}
+    <br><br>
+    Best parameters:<br>*--criterion: 'gini',*<br> *--max_depth: 9,*<br>*--max_features: 'log2',*<br>*--min_samples_split': 9*
     <br>
     Accuracy: 91%
     <br>
