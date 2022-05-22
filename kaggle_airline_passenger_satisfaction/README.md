@@ -25,7 +25,7 @@ Exploratory data analysis and model building for prediction of future customers 
     - Logistic regression
     - K neighbors classifier
     - Decision tree classifier
-  4. Result :
+  4. Result (better results without feature selection):
   <br><br>
     - **Logistic Regression**: 
     <br><br>
