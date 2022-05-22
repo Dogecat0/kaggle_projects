@@ -45,16 +45,12 @@ Exploratory data analysis and model building for prediction of future customers 
     - **Decision Tree Classifier**:
     <br><br>
     Best parameters:<br>*--criterion: 'gini',*<br> *--max_depth: 9,*<br>*--max_features: 'log2',*<br>*--min_samples_split': 9*
-    <br>
-    Accuracy: 91.0%
-    <br>
-    F1 Score: 89.8%   
+    <br>Accuracy: 91.0%
+    <br>F1 Score: 89.8%   
     
     <br><br>
     - **Random Forest calssifier**:
     <br><br>
     Best parameters:<br>*--max_features: 'log2',*<br> *--n_estimators: 1000,
-    <br>
-    Accuracy: 96.4%
-    <br>
-    F1 Score: 95.8%           
+    <br>Accuracy: 96.4%
+    <br>F1 Score: 95.8%           
