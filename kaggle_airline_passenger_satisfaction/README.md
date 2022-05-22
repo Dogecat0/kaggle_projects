@@ -51,6 +51,6 @@ Exploratory data analysis and model building for prediction of future customers 
     <br><br>
     - **Random Forest calssifier**:
     <br><br>
-    Best parameters:<br>*--max_features: 'log2',*<br> *--n_estimators: 1000,
+    Best parameters:<br>*--criterion: 'entropy'*,<br>*--max_features: 'log2',*<br> *--n_estimators: 1000,*
     <br>Accuracy: 96.4%
     <br>F1 Score: 95.8%           
