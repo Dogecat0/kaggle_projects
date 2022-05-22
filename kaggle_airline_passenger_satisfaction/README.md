@@ -30,19 +30,16 @@ Exploratory data analysis and model building for prediction of future customers 
     - **Logistic Regression**: 
     <br><br>
     Best parameters: 
-    <br>*--C: 10,*<br>*--penalty: 'l1'*, <br>*--solver: 'saga'*<br>
-    Accuracy: 87.1%
-    <br>
-    F1 Score: 85.0%
+    <br>*--C: 10,*<br>*--penalty: 'l1'*, <br>*--solver: 'saga'*
+    <br>Accuracy: 87.1%
+    <br>F1 Score: 85.0%
     
    <br><br>
     - **K Neighbors classifier**: 
     <br><br>
     Best parameters: <br>*--metric: 'minkowski'*, <br>*--n_neighbors: 8,*<br>*--p: 1*,<br> *--weights: 'distance'*
-    <br>
-    Accuracy: 93.8%
-    <br>
-    F1 Score: 92.8%      
+    <br>Accuracy: 93.8%
+    <br>F1 Score: 92.8%      
 
     <br><br>
     - **Decision Tree Classifier**:
