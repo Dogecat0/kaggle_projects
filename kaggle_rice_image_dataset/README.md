@@ -24,5 +24,3 @@ Using custom small Convolutional Neural Network and Transfer Learning MobileNetv
 6. Prediction
 -  Predict the images selected from test dataset
 -  Predict a single image downloaded from internet
-
-
