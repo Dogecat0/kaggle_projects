@@ -25,7 +25,7 @@ Exploratory data analysis and model building for prediction of future customers 
     - Logistic regression
     - K neighbors classifier
     - Decision tree classifier
-  4. Result (better results without feature selection):
+  4. Result (higher scores without feature selection have been chosen to show here):
   <br><br>
     - **Logistic Regression**: 
     <br><br>
@@ -49,8 +49,15 @@ Exploratory data analysis and model building for prediction of future customers 
     <br>F1 Score: 89.8%   
     
     <br><br>
-    - **Random Forest calssifier**:
+    - **Random Forest Classifier**:
     <br><br>
     Best parameters:<br>*--criterion: 'entropy'*,<br>*--max_features: 'log2',*<br> *--n_estimators: 1000,*
+    <br>Accuracy: 96.4%
+    <br>F1 Score: 95.8%           
+
+        <br><br>
+    - **Gradient Boosting Classifier**:
+    <br><br>
+    Best parameters:<br>*--learning_rate: 0.1*,<br>*--max_features: 'log2',*<br> *--max_depth: 6*,*--n_estimators: 500*, *--sub_sample:1*
     <br>Accuracy: 96.4%
     <br>F1 Score: 95.8%           
