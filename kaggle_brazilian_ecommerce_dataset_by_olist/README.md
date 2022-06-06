@@ -1,22 +1,31 @@
-## **Brazilian E-Commerce Public Dataset by Olist**
-### 100,000 Orders with product, customer and reviews info
-https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount&select=olist_order_payments_dataset.csv
+# **Brazilian E-Commerce Public Dataset by Olist**
+
+100,000 Orders with product, customer and reviews info
+
+License: CC BY-NC-SA 4.0
+
+[Kaggle Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sortBy=voteCount&select=olist_order_payments_dataset.csv)
+
 
 ---
 
-License: CC BY-NC-SA 4.0
-<br><br>
 
-## **Exploratory data analysis**:<br><br>
+## **Exploratory data analysis**
+### **Seller side analysis**
 
-### **1.Seller side analysis**<br><br>
-**- Seller state and sold price**<br><br>
-*a. Seller state and total sold price*<br>
-*b. Seller state and average order price*<br><br>
-**- Seller state and product category**<br><br>
-**- Seller and sold product volume**<br><br>
-*a. Seller state and total sold product volume*<br>
-*b. Seller city and total sold product volume*<br>
-*c. Seller city and total sold volume by category*
+<ol type="1">
+    <li>Seller state and sold price</li>
+    <ol type="a">
+        <li>Seller state and total sold price</li>
+        <li>Seller state and average order price</li>
+    </ol>
+        <li>Seller state and product category</li>
+        <li>Seller and sold product volume</li>
+    <ol type="a">
+        <li>Seller state and total sold product volume</li>
+        <li>Seller city and total sold product volume</li>
+        <li>Seller city and total sold volume by category</li>
+    </ol>
+</ol>
 
-#future plan: more analysis from customer side and sale prediction model, customer review NLP model build.
+Future plan: more analysis from customer side and sale prediction model, customer review NLP model build.

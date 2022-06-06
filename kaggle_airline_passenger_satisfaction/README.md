@@ -1,63 +1,138 @@
-## **Kaggle dataset: Airline Passenger Satisfaction**
-### What factors lead to customer satisfaction for an Airline?
-https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction
+# **Kaggle dataset: Airline Passenger Satisfaction**
+
+What factors lead to customer satisfaction for an Airline?
+
+License: Other (specified in description)
+
+[Kaggle Dataset](https://www.kaggle.com/datasets/teejmahal20/airline-passenger-satisfaction)
 
 ---
 
-License: refer to https://www.kaggle.com/datasets/johndddddd/customer-satisfaction
+## **Exploratory data analysis and model building for prediction of future customers satisfaction**
 
----
+### **Exploratory data analysis**
 
-Exploratory data analysis and model building for prediction of future customers satisfaction:
-<br><br>
-- **Exploratory data analysis**:
-  1. Customer types and classes
-  2. Customer age and type of travel
-  3. Satisfaction analysis:
-     
-    - Customer age and satisfaction
-    - Class, flight distance and satisfaction
-  <br><br>
-- **Model building**:
-  1. Encode the categorical variables
-  2. Check correlation map
-  3. Build the models and gridsearch for best parameters :
-    - Logistic regression
-    - K neighbors classifier
-    - Decision tree classifier
-  4. Result (higher scores without feature selection have been chosen to show here):
-  <br><br>
-    - **Logistic Regression**: 
-    <br><br>
-    Best parameters: 
-    <br>*--C: 10,*<br>*--penalty: 'l1'*, <br>*--solver: 'saga'*
-    <br>Accuracy: 87.1%
-    <br>F1 Score: 85.0%
-    
-   <br><br>
-    - **K Neighbors classifier**: 
-    <br><br>
-    Best parameters: <br>*--metric: 'minkowski'*, <br>*--n_neighbors: 8,*<br>*--p: 1*,<br> *--weights: 'distance'*
-    <br>Accuracy: 93.8%
-    <br>F1 Score: 92.8%      
+<ol type="1">
+  <li>Customer types and classes</li>
+  <li>Customer age and type of travel</li>
+  <li>Satisfaction analysis</li>
+  <ol type="a">
+      <li>Customer age and satisfaction</li>
+      <li>Class, flight distance and satisfaction</li>
+  </ol>
+</ol>
 
-    <br><br>
-    - **Decision Tree Classifier**:
-    <br><br>
-    Best parameters:<br>*--criterion: 'gini',*<br> *--max_depth: 9,*<br>*--max_features: 'log2',*<br>*--min_samples_split': 9*
-    <br>Accuracy: 91.0%
-    <br>F1 Score: 89.8%   
-    
-    <br><br>
-    - **Random Forest Classifier**:
-    <br><br>
-    Best parameters:<br>*--criterion: 'entropy'*,<br>*--max_features: 'log2',*<br> *--n_estimators: 1000,*
-    <br>Accuracy: 96.4%
-    <br>F1 Score: 95.8%           
+### **Model building**
 
-        <br><br>
-    - **Gradient Boosting Classifier**:
-    <br><br>
-    Best parameters:<br>*--learning_rate: 0.1*,<br>*--max_features: 'log2',*<br> *--max_depth: 6*,*--n_estimators: 500*, *--sub_sample:1*
-    <br>Accuracy: 96.4%
-    <br>F1 Score: 95.8%           
+<ol type="1">
+  <li>Encode the categorical variables</li>
+  <li>Check correlation map</li>
+  <li>Build the models and gridsearch for best parameters</li>
+  <ol type="a">
+      <li>Logistic regression</li>
+      <li>K neighbors classifier</li>
+      <li>Decision tree classifier</li>
+  </ol>
+  <li>Result (<em>higher scores without feature selection have been chosen to show here</em>)</li>
+  <ol type="a">
+    <li>Logistic Regression</li>
+    <table>
+      <tr>
+        <th>Best Parameters</th>
+        <th>Accuracy</th>
+        <th>F1 Score</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li><strong>C</strong>: 10</li>
+            <li><strong>penalty</strong>: l1</li>
+            <li><strong>solver</strong>: saga</li>
+          </ul>
+        </td>
+        <td>87.1%</td>
+        <td>85.0%</td>
+      </tr>
+    </table>
+    <li>K Neighbors Classifier</li>
+    <table>
+      <tr>
+        <th>Best Parameters</th>
+        <th>Accuracy</th>
+        <th>F1 Score</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li><strong>metric</strong>: minkowski</li>
+            <li><strong>n_neighbors</strong>: 8</li>
+            <li><strong>p</strong>: 1</li>
+            <li><strong>weights</strong>: distance</li>
+          </ul>
+        </td>
+        <td>93.8%</td>
+        <td>92.8%</td>
+      </tr>
+    </table>
+    <li>Decision Tree Classifier</li>
+    <table>
+      <tr>
+        <th>Best Parameters</th>
+        <th>Accuracy</th>
+        <th>F1 Score</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li><strong>criterion</strong>: gini</li>
+            <li><strong>max_depth</strong>: 9</li>
+            <li><strong>max_features</strong>: log2</li>
+            <li><strong>min_samples_split</strong>: 9</li>
+          </ul>
+        </td>
+        <td>91.0%</td>
+        <td>89.8%</td>
+      </tr>
+    </table>
+    <li>Random Forest Classifier</li>
+    <table>
+      <tr>
+        <th>Best Parameters</th>
+        <th>Accuracy</th>
+        <th>F1 Score</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li><strong>criterion</strong>: entropy</li>
+            <li><strong>max_features</strong>: log2</li>
+            <li><strong>n_estimators</strong>: 1000</li>
+          </ul>
+        </td>
+        <td>96.4%</td>
+        <td>95.8%</td>
+      </tr>
+    </table>
+    <li>Gradient Boosting Classifier</li>
+    <table>
+      <tr>
+        <th>Best Parameters</th>
+        <th>Accuracy</th>
+        <th>F1 Score</th>
+      </tr>
+      <tr>
+        <td>
+          <ul>
+            <li><strong>learning_rate</strong>: 0.1</li>
+            <li><strong>max_features</strong>: log2</li>
+            <li><strong>max_depth</strong>: 6</li>
+            <li><strong>n_estimators</strong>: 500</li>
+            <li><strong>sub_sample</strong>: 1</li>
+          </ul>
+        </td>
+        <td>96.4%</td>
+        <td>95.8%</td>
+      </tr>
+    </table>
+  </ol>
+</ol>
