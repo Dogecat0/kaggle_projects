@@ -6,12 +6,13 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce?datasetId=55151&sort
 
 License: CC BY-NC-SA 4.0
 <br><br>
-##**Exploratory data analysis**:##
-<br><br>
-###**1.Seller side analysis**###
-**- Seller state and sold price**<br>
-*a. Seller state and total sold price*<br><br>
-*b. Seller state and average order price*
+
+## **Exploratory data analysis**:<br><br>
+
+### **1.Seller side analysis**<br><br>
+**- Seller state and sold price**<br><br>
+*a. Seller state and total sold price*<br>
+*b. Seller state and average order price*<br><br>
 **- Seller state and product category**<br><br>
 **- Seller and sold product volume**<br><br>
 *a. Seller state and total sold product volume*<br>
