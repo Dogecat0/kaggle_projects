@@ -26,6 +26,11 @@ License: CC BY-NC-SA 4.0
         <li>Seller city and total sold product volume</li>
         <li>Seller city and total sold volume by category</li>
     </ol>
+    <li>Seller and orders</li>
+    <ol type="a">
+        <li>Seller state and order approval time</li>
+        <li>Seller state and order delivering time</li>
+    </ol>
 </ol>
 
 Future plan: more analysis from customer side and sale prediction model, customer review NLP model build.
