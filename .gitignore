@@ -2,3 +2,4 @@
 *.csv
 *.jpg
 kaggle_rice_image_dataset/train_conv_model/*
+*.h5

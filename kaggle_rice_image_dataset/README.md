@@ -4,7 +4,7 @@ Five different Rice Image Dataset. Arborio, Basmati, Ipsala, Jasmine, Karacadag
 
 License: CC0: Public Domain
 
-[Kaggle Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset?datasetId=2049052&sortBy=voteCount)
+[Kaggle Dataset](https://www.kaggle.com/datasets/muratkokludataset/rice-image-dataset)
 
 
 ---
