@@ -125,9 +125,8 @@ License: Other (specified in description)
       <tr>
         <td>
           <ul>
-            <li><strong>learning_rate</strong>: 0.1</li>
-            <li><strong>max_features</strong>: log2</li>
-            <li><strong>max_depth</strong>: 6</li>
+            <li><strong>learning_rate</strong>: 0.05</li>
+            <li><strong>max_depth</strong>: 8</li>
             <li><strong>n_estimators</strong>: 500</li>
             <li><strong>sub_sample</strong>: 1</li>
           </ul>
