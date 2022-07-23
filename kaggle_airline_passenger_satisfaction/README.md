@@ -29,9 +29,11 @@ License: Other (specified in description)
   <li>Check correlation map</li>
   <li>Build the models and gridsearch for best parameters</li>
   <ol type="a">
-      <li>Logistic regression</li>
-      <li>K neighbors classifier</li>
-      <li>Decision tree classifier</li>
+      <li>Logistic Regression</li>
+      <li>K Neighbors Classifier</li>
+      <li>Decision Tree classifier</li>
+      <li>Random Forest classifier</li>
+      <li>XGBoosting classifier</li>
   </ol>
   <li>Result (<em>higher scores without feature selection have been chosen to show here</em>)</li>
   <ol type="a">
