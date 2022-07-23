@@ -130,8 +130,8 @@ License: Other (specified in description)
             <li><strong>sub_sample</strong>: 1</li>
           </ul>
         </td>
-        <td>96.4%</td>
-        <td>95.8%</td>
+        <td>96.5%</td>
+        <td>95.9%</td>
       </tr>
     </table>
   </ol>
